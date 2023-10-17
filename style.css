@@ -655,21 +655,21 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 50px;
 }
 
 .hero-bloc-text-sub {
-    font-size: 36px;
+    font-size: 46px;
 }
 
 .statement-bloc-text {
-    line-height: 26px;
+    line-height: 30px;
     font-style: italic;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
