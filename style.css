@@ -663,13 +663,13 @@ a {
 }
 
 .hero-bloc-text-sub {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .statement-bloc-text {
-    line-height: 20px;
+    line-height: 15px;
     font-style: italic;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
