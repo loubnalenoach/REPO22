@@ -659,17 +659,17 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 45px;
+    font-size: 25px;
 }
 
 .hero-bloc-text-sub {
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .statement-bloc-text {
     line-height: 20px;
     font-style: italic;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .tight-width-whitespace {
