@@ -401,8 +401,8 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
-}
 
+}
 .nav > li > .dropdown a {
     background: none!important;
     display: block;
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 20px;
+    font-size: 26666px;
 }
 
 .tight-width-whitespace {
@@ -775,7 +775,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #000000;
+    background-color: ##F3976C;
 }
 
 .tc-white {
@@ -1017,7 +1017,7 @@ h4 {
         margin-top: 30px;
     }
     form {
-        padding: 343434343434343434343434343434343434343434343434343434343434px;
+        padding: 224px;
     }
     .close-lightbox {
         display: inline-block;
