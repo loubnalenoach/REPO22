@@ -1432,7 +1432,10 @@ img {
 
 .carousel-inner>.item>a>img,
 .carousel-inner>.item>img,
-.img-responsive,
+.img-responsive{
+  height: auto;
+  width: 100%;
+},
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
