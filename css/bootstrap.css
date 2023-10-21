@@ -1428,13 +1428,15 @@ figure {
 
 img {
     vertical-align: middle;
-    width: 100%;
-    height:auto
 }
 
 .carousel-inner>.item>a>img,
 .carousel-inner>.item>img,
-.img-responsive,
+.img-responsive {
+    max-width: 100%;
+    height:auto
+}
+
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
