@@ -832,8 +832,8 @@ h4 {
 
 @media (max-width: 1024px) {
     .bloc {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 22px;
+        padding-right: 22px;
     }
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
