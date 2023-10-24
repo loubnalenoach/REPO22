@@ -295,7 +295,7 @@ a:hover {
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
@@ -308,7 +308,7 @@ a:hover {
 }
 
 .navbar-brand img[src$=svg] {
-    min-width: 100px;
+    min-width: 50px;
 }
 
 .nav-center .navbar-brand img {
@@ -967,7 +967,7 @@ h4 {
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
+        max-height: 100px;
         width: auto;
     }
     .nav-invert .navbar-header {
