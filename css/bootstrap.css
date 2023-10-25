@@ -103,9 +103,7 @@ sub {
 }
 
 img {
-    border: 0;
-    max-width: 100%;
-    height: auto
+    border: 0
 }
 
 svg:not(:root) {
@@ -1429,16 +1427,12 @@ figure {
 }
 
 img {
-    vertical-align: middle;
+    vertical-align: middle
 }
 
 .carousel-inner>.item>a>img,
 .carousel-inner>.item>img,
-.img-responsive {
-    max-width: 100%;
-    height:auto
-}
-
+.img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
