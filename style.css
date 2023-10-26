@@ -655,7 +655,8 @@ h5,
 h6,
 p,
 label {
-    font-size: "40px";
+    font-size: "12px";
+    color: #000000 !important;
 }
 
 .btn,
