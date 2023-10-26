@@ -681,7 +681,7 @@ a {
 .statement-bloc-text {
     line-height: 22px;
     font-style: normal;
-    font-size: 22px;
+    font-size: 20px;
     text-align: left;
     font-weight: lighter;
     max-width: 520px;
@@ -689,7 +689,7 @@ a {
 }
 
 p {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .tight-width-whitespace {
