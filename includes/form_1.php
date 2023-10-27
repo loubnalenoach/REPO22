@@ -9,16 +9,18 @@
 	$input_504 = $_POST['input_504'];
 	$message = $_POST['message'];
 	
-	$to = 'receiver@yoursite.com'; // Email submissions are sent to this email
+	//$to = 'receiver@yoursite.com'; // Email submissions are sent to this email
+	$to = 'loubna_sahbou@yahoo.fr';
 
 	// Create email	
 	$email_subject = "Message from your website";
 	$email_body = "You have received a new message. \n\n".
 				  "Name: $name \nEmail: $email \nInput_504: $input_504 \nMessage: $message \n";
 	$headers = "MIME-Version: 1.0\r\nContent-type: text/plain; charset=UTF-8\r\n";	
-	$headers .= "From: contact@yoursite.com\n";
-	$headers .= "Reply-To: $input_504";	
+	$headers .= "From: contact@agencelapanthere.com\n";
+	$headers .= "Reply-To: $email";	
 	
-	mail($to,$email_subject,$email_body,$headers); // Post message
+	mail($to,$email_subject,$email_body,$headers); // Post messageprint 'To : ' . $to;
+	
 	return true;			
 ?>
