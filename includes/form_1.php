@@ -12,7 +12,7 @@
 	$input_504 = $_POST['input_504'];
 	$message = $_POST['message'];
 	
-	$to = 'loubnalenoach@gmail.com'; // Email submissions are sent to this email
+	$to = 'loubna_sahbou@yahoo.fr'; // Email submissions are sent to this email
 
 	// Create email	
 	$email_subject = "Message from your website";
@@ -23,7 +23,12 @@
 	$headers .= "Reply-To: $email";	
 	
 	//mail($to,$email_subject,$email_body,$headers); // Post message
-	$success = mail($to,$email_subject,$email_body,$headers) 
+	$success = mail($to,$email_subject,$email_body,$headers);
+	print 'To : ' . $to;
+	print 'Subject : ' . $email_subject;
+	print 'Body : ' . $email_body;
+	print 'Headers : ' . $headers;
+	print 'Success : ' . $success;
 	
 	return true;			
 ?>
